@@ -1,0 +1,80 @@
+•	{ margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: Arial, Helvetica, sans-serif; line-height: 1.8; background-color: #f4f7fa; color: #333; }
+
+/* ========================== HEADER / HERO ========================== */
+header { background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(“https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1600”) center/cover no-repeat; color: white; text-align: center; padding: 120px 20px; }
+.hero-text h1 { font-size: 3rem; margin-bottom: 15px; }
+.hero-text p { font-size: 1.3rem; margin-bottom: 25px; font-style: italic; }
+
+/* ========================== BUTTON ========================== */
+.btn { display: inline-block; background-color: #f39c12; color: white; text-decoration: none; padding: 14px 30px; border-radius: 6px; font-weight: bold; transition: 0.3s; }
+.btn:hover { background-color: #d68910; transform: translateY(-3px); }
+
+/* ========================== NAVIGATION ========================== */
+nav { background-color: #1f3c88; padding: 20px; text-align: center; }
+nav h2 { color: white; margin-bottom: 15px; }
+nav ul { list-style: none; }
+nav li { display: inline-block; margin: 8px 15px; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+nav a:hover { color: #f39c12; }
+
+/* ========================== MAIN CONTENT ========================== */
+main { max-width: 1100px; margin: auto; padding: 40px 20px; }
+section { background-color: white; padding: 30px; margin-bottom: 35px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); }
+section h2 { color: #1f3c88; margin-bottom: 15px; border-bottom: 3px solid #f39c12; display: inline-block; padding-bottom: 5px; }
+section p { margin-bottom: 15px; }
+
+/* ========================== IMAGES ========================== */
+section img { width: 100%; max-width: 700px; display: block; margin: 20px auto; border-radius: 10px; transition: transform 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+section img:hover { transform: scale(1.03); }
+
+/* ========================== TABLE ========================== */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ddd; padding: 12px; }
+th { background-color: #1f3c88; color: white; width: 30%; text-align: left; }
+tr:nth-child(even) { background-color: #f8f8f8; }
+
+/* ========================== LISTS ========================== */
+ul, ol { margin-left: 25px; margin-top: 15px; }
+li { margin-bottom: 10px; }
+
+/* ========================== LINKS ========================== */
+a { color: #1f3c88; }
+a:hover { color: #f39c12; }
+
+/* ========================== FOOTER ========================== */
+footer { background-color: #1f3c88; color: white; text-align: center; padding: 30px 20px; }
+footer a { color: #f39c12; text-decoration: none; font-weight: bold; }
+footer a:hover { color: white; }
+
+/* ========================== RESPONSIVE ========================== */
+@media (max-width: 768px) {
+.hero-text h1 {
+    font-size: 2rem;
+}
+
+.hero-text p {
+    font-size: 1rem;
+}
+
+nav li {
+    display: block;
+    margin: 12px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+th,
+td {
+    font-size: 0.95rem;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+}
