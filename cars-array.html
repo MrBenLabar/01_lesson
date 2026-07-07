@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="MrBen">
+    <meta name="description" content="JavaScript Cars Array Challenge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cars Array</title>
+</head>
+
+<body>
+
+    <h1>Cars Array Challenge</h1>
+    <p>Open the browser console (F12 → Console) to view the output.</p>
+
+    <script>
+
+        // Create an array of cars
+        let cars = [
+            "Toyota",
+            "Honda",
+            "Mazda",
+            "Mitsubishi",
+            "Tesla",
+            "Lexus"
+        ];
+
+        // Log the first item
+        console.log("First car:", cars[0]);
+
+        // Log the last item using the length property
+        console.log("Last car:", cars[cars.length - 1]);
+
+        // Add Mercedes-Benz to the array
+        cars.push("Mercedes-Benz");
+
+        // Log the updated array
+        console.log("Updated array:", cars);
+
+        // Loop through the array and log each item
+        console.log("Cars List:");
+
+        for (let i = 0; i < cars.length; i++) {
+            console.log(cars[i]);
+        }
+
+    </script>
+
+</body>
+
+</html>
